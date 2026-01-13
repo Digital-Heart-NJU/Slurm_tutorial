@@ -9,6 +9,6 @@
 ##SBATCH --mem=30G
 #SBATCH --gres=gpu:rtx5090:2
 #### #####     gpu:gpu_model:gpuNumber
-#
+#### GPU model should match your "/etc/slurm/gres.conf" 
 #place your code here; same as in terminal
 ./gpu_test

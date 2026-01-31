@@ -7,7 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 ##SBATCH --mem=30G
-#SBATCH --gres=gpu:rtx5090:2
+#SBATCH --gres=gpu:rtx4080s:1
 #### #####     gpu:gpu_model:gpuNumber
 #### GPU model should match your "/etc/slurm/gres.conf" 
 #place your code here; same as in terminal
